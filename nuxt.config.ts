@@ -21,7 +21,7 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
-  targeg: 'static',
+  target: 'static',
   nitro: {
     prerender: {
       crawlLinks: true,
