@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
   },
+  experimental: {
+    payloadExtraction: true,
+  },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxt/content'],
   content: {
     highlight: {
