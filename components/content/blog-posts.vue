@@ -1,11 +1,10 @@
 <template>
   <slot :posts="posts">
-    <section class="not-prose font-mono"> 
+    <section class="not-prose font-mono">
       <ul>
         <li v-for="post in posts" :key="post._path">
           <NuxtLink :to="post._path" class="column group hover:bg-gray-100 dark:hover:bg-gray-800">
-            <div
-              class="text-gray-400 dark:text-gray-500">
+            <div class="text-gray-400 dark:text-gray-500">
               {{ post.postDate }}</div>
             <div>{{ post.title }}</div>
           </NuxtLink>
@@ -28,24 +27,24 @@ const { data } = await useAsyncData(
   () => {
     const query = queryContent('/posts')
       .where({ _path: { $ne: '/posts' } })
-      .only(['_path', 'title', 'publishedAt','tags'])
+      .only(['_path', 'title', 'publishedAt', 'tags'])
       .sort({ publishedAt: -1 })
 
     if (props.limit) {
       query.limit(props.limit)
     }
 
-    return query.find()
+    return query.find();
   }
 )
 
 const posts = computed(() => {
   if (!data.value) {
-    return []
+    return [];
   }
 
-  const result = []
-  let lastYear = null
+  const result = [];
+
 
   for (const post of data.value) {
     post.postDate = new Date(post.publishedAt).toJSON().slice(0, 10);

@@ -15,8 +15,10 @@
     "@nuxtjs/tailwindcss": "^6.11.2",
     "@tailwindcss/typography": "^0.5.10",
     "nuxt": "^3.9.3",
+    "typescript": "^5.7.2",
     "vue": "^3.4.14",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vue-tsc": "^2.1.10"
   },
   "dependencies": {
     "sitemap": "^7.1.1"

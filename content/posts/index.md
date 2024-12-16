@@ -1,1 +1,3 @@
+:filter-posts
+
 ::blog-posts
