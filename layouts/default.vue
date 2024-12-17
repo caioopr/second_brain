@@ -1,4 +1,5 @@
 <template>
+  <!-- TODO: Code Refactoring -->
   <div class="container mx-auto max-w-4xl">
     <header class="flex justify-between items-center mt-3 md:mt-5">
 
@@ -27,7 +28,7 @@
         </div>
       </div>
     </header>
-    <div v-if="isMenuBtn" class="flex flex-col p-2">
+    <div v-if="isMenuBtn" class="flex flex-col md:hidden p-2">
       <Menu />
     </div>
 
