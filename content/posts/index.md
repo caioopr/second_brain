@@ -1,3 +1,3 @@
 :filter-posts
 
-::blog-posts
+::blog-posts{:tagsOn=true}

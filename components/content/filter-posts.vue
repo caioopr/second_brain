@@ -41,6 +41,9 @@ const tags = computed(() => {
 })
 
 function selectTag(tag) {
+  if (!selectedTags.value) {
+    return;
+  }
   const idx = selectedTags.value.indexOf(tag);
   if (idx !== -1) {
     selectedTags.value.pop(idx)

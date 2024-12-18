@@ -1,3 +1,3 @@
 # Latest Posts
 
-::blog-posts{:limit=5}
+::blog-posts{:limit=5 :tagsOn=false}
