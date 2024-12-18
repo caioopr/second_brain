@@ -1,5 +1,5 @@
 <template>
-  <!-- TODO: Code Refactoring -->
+  <!-- TODO: Code Refactoring & fix icon import-->
   <div class="container mx-auto max-w-4xl">
     <header class="flex justify-between items-center mt-3 md:mt-5">
 

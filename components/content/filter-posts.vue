@@ -1,11 +1,15 @@
 <template>
-  <div>{{ tags }}</div>
+  <div v-if="tags.length !== 0">
+    <!-- TODO: add button style -->
+    <button v-for="(item) in tags" :key="item" @click="selectTag(item)">{{ item }}</button>
+  </div>
 </template>
 
 <script setup>
 
 // add the tags to be filtered into filter
-//export const useFilter = () => useState('tags', () => []);
+
+const selectedTags = useState('selectedTags', () => [])
 
 
 const { data } = await useAsyncData(
@@ -36,7 +40,15 @@ const tags = computed(() => {
   return result;
 })
 
+function selectTag(tag) {
+  const idx = selectedTags.value.indexOf(tag);
+  if (idx !== -1) {
+    selectedTags.value.pop(idx)
 
+    return;
+  }
+  selectedTags.value.push(tag);
+}
 
 </script>
 
