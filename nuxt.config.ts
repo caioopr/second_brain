@@ -6,10 +6,13 @@ export default defineNuxtConfig({
       enabled: true,
     },
   },
+
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
   },
+
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxt/content', '@nuxt/icon'],
+
   content: {
     highlight: {
       theme: {
@@ -18,12 +21,15 @@ export default defineNuxtConfig({
       },
     },
   },
+
   colorMode: {
     classSuffix: '',
   },
+
   typescript: {
     typeCheck: true,
   },
+
   //target: 'static',
   nitro: {
     prerender: {
@@ -31,4 +37,6 @@ export default defineNuxtConfig({
       routes: ['/sitemap.xml'],
     },
   },
+
+  compatibilityDate: '2024-12-20',
 });

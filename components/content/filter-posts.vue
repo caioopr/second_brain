@@ -1,7 +1,15 @@
 <template>
-  <div v-if="tags.length !== 0">
+  <div v-if="tags.length !== 0" class="border-b-2 border-gray-200 dark:border-gray-700">
+
+    <p class="my-1 text-gray-700 dark:text-gray-300">Categories:</p>
     <!-- TODO: add button style -->
-    <button v-for="(item) in tags" :key="item" @click="selectTag(item)">{{ item }}</button>
+    <div class="flex flex-wrap gap-2 my-2">
+      <button v-for="(item) in tags" :key="item" @click="selectTag(item)"
+        class="text-gray-700 dark:text-gray-300 border-gray-700 dark:border-gray-300">
+        {{ item }}
+        <Icon v-if='selectedTags.includes(item)' name='i-heroicons-x-mark' class="w-4 h-4" />
+      </button>
+    </div>
   </div>
 </template>
 
@@ -55,4 +63,8 @@ function selectTag(tag) {
 
 </script>
 
-<style scoped></style>
+<style scoped>
+button {
+  @apply px-2 py-1 border-2 rounded-md bg-transparent text-xl md:text-base flex items-center gap-1.5 hover:border-blue-800 hover:text-blue-800
+}
+</style>
