@@ -1,3 +1,3 @@
-:filter-posts
+# Collections
 
-::blog-posts{:tagsOn=true}
+::collections-list

@@ -6,6 +6,7 @@
         <li v-show="!tagsOn || (selectedTags && selectedTags.length === 0) || postHasTag(post.tags.split(','))"
           v-for="post in posts" :key="post._path">
           <NuxtLink :to="post._path" class="column group hover:bg-gray-100 dark:hover:bg-gray-800">
+            <!-- TODO: display date as dd/name_month/yyyy -->
             <div class="text-gray-400 dark:text-gray-500">
               {{ post.postDate }}</div>
             <div>{{ post.title }}</div>

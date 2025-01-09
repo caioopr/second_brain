@@ -9,6 +9,7 @@ head:
       content: 'Caio Prado'
 publishedAt: 2025-01-08 17:15:00
 tags: 'challenge,daily-coding,leetcode,nuxt.js'
+collections: 'Coding Every Day Until I Get a Job'
 toc: true
 ---
 

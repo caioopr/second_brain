@@ -9,6 +9,7 @@ head:
       content: 'challenge'
 publishedAt: 2025-01-06 08:00:00
 tags: 'challenge,daily-coding'
+collections: 'Coding Every Day Until I Get a Job'
 toc: true
 ---
 
