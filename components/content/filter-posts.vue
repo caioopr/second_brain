@@ -3,7 +3,7 @@
 
     <p class="my-1 text-gray-700 dark:text-gray-300">Categories:</p>
     <!-- TODO: add button style -->
-    <div class="flex flex-wrap gap-2 my-2">
+    <div class="flex flex-wrap gap-1.5 my-2">
       <button v-for="(item) in tags" :key="item" @click="selectTag(item)"
         class="text-gray-700 dark:text-gray-300 border-gray-700 dark:border-gray-300">
         {{ item }}
@@ -66,6 +66,6 @@ function selectTag(tag) {
 
 <style scoped>
 button {
-  @apply px-2 py-1 border-2 rounded-md bg-transparent text-xl md:text-base flex items-center gap-1.5 hover:border-blue-800 hover:text-blue-800
+  @apply px-1.5 py-0.5 border-2 rounded-md bg-transparent text-xl md:text-base flex items-center gap-1.5 hover:border-blue-800 hover:text-blue-800
 }
 </style>
