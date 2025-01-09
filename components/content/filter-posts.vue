@@ -40,6 +40,7 @@ const tags = computed(() => {
   let result = [];
   for (const post of data.value) {
     if (post.tags !== "") {
+      // TODO: trim the tags
       let tags = post.tags.split(",");
       result = [...new Set(result.concat(tags))];
     }

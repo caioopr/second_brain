@@ -8,7 +8,7 @@ head:
     - name: 'keywords'
       content: 'challenge'
 publishedAt: 2025-01-06 08:00:00
-tags: 'challenge, daily-coding '
+tags: 'challenge,daily-coding'
 toc: true
 ---
 
