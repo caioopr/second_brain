@@ -1,0 +1,1 @@
+import{_ as r,c as s,b as o,o as t}from"./DUtqvE8i.js";const a={},n={class:"prose dark:prose-invert max-w-none prose-pre:bg-white dark:prose-pre:bg-gray-800 prose-pre:text-gray-700 dark:prose-pre:text-gray-300"};function p(_,e){return t(),s("article",n,e[0]||(e[0]=[o("h1",null,"LIST OF COLLECTIONS",-1)]))}const l=r(a,[["render",p]]);export{l as default};
