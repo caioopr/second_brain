@@ -15,8 +15,8 @@
 
 <script setup>
 
+// TODO: make the useState a set to avoid duplication
 // add the tags to be filtered into filter
-
 const selectedTags = useState('selectedTags', () => [])
 
 
@@ -41,7 +41,7 @@ const tags = computed(() => {
   for (const post of data.value) {
     if (post.tags !== "") {
       let tags = post.tags.split(",");
-      result = result.concat(tags);
+      result = [...new Set(result.concat(tags))];
     }
   }
 
