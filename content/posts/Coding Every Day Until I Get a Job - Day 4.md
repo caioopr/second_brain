@@ -4,11 +4,11 @@ description: 'Log of Coding Every Day Challenge Day 4'
 head:
   meta:
     - name: 'keywords'
-      content: 'challenge,daily-coding,leetcode,nuxt.js'
+      content: 'challenge,daily-coding,leetcode'
     - name: 'author'
       content: 'Caio Prado'
 publishedAt: 2025-01-10 17:15:00
-tags: 'challenge,daily-coding,leetcode,nuxt.js'
+tags: 'challenge,daily-coding,leetcode'
 collections: 'Coding Every Day Until I Get a Job'
 toc: true
 ---

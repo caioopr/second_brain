@@ -4,11 +4,11 @@ description: 'Log of Coding Every Day Challenge Day 2'
 head:
   meta:
     - name: 'keywords'
-      content: 'challenge,daily-coding,leetcode,nuxt.js'
+      content: 'challenge,daily-coding,leetcode'
     - name: 'author'
       content: 'Caio Prado'
 publishedAt: 2025-01-08 17:15:00
-tags: 'challenge,daily-coding,leetcode,nuxt.js'
+tags: 'challenge,daily-coding,leetcode'
 collections: 'Coding Every Day Until I Get a Job'
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 
 ## Log
 
-Today i decided to solve a LeetCode exercise and work on a side project open issues.
+Today i decided to solve a LeetCode exercise.
 
 ### LeetCode
 
