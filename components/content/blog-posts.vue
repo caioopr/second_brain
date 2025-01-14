@@ -19,10 +19,6 @@
 
 <script setup>
 const props = defineProps({
-  limit: {
-    type: Number,
-    default: null
-  },
   tagsOn: {
     type: Boolean,
     default: false
@@ -36,10 +32,6 @@ const { data } = await useAsyncData(
       .where({ _path: { $ne: '/posts' } })
       .only(['_path', 'title', 'publishedAt', 'tags'])
       .sort({ publishedAt: -1 })
-
-    if (props.limit) {
-      query.limit(props.limit)
-    }
 
     return query.find();
   }
@@ -62,6 +54,7 @@ const posts = computed(() => {
 
   return result
 })
+
 
 function postHasTag(postTags) {
   if (!selectedTags.value) return;

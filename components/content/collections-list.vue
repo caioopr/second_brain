@@ -18,7 +18,9 @@
 
 <script setup>
 
-
+// TODO: 
+// keep the posts in subfolders named as collection
+// query the subfolders names
 const { data } = await useAsyncData(
   'collections-list',
   () => {
