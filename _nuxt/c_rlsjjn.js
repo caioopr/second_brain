@@ -1,0 +1,1 @@
+import r from"./DbgLE-wl.js";import{z as o,A as u,i as f,O as c}from"./CMp_UR4U.js";const p=o({name:"Markdown",extends:r,setup(t){const{parent:e}=c(),{between:n,default:a}=u(),s=f(()=>typeof t.unwrap=="string"?t.unwrap.split(" "):["*"]);return{fallbackSlot:a,tags:s,between:n,parent:e}}});export{p as default};
