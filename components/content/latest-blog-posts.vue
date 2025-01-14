@@ -3,8 +3,7 @@
     <section class="not-prose font-mono">
       <ul>
         <!-- TODO: Code Refactoring, change post item style -->
-        <li v-show="!tagsOn || (selectedTags && selectedTags.length === 0) || postHasTag(post.tags.split(','))"
-          v-for="post in posts" :key="post._path">
+        <li v-for="post in posts" :key="post._path">
           <NuxtLink :to="post._path" class="column group hover:bg-gray-100 dark:hover:bg-gray-800">
             <!-- TODO: display date as dd/name_month/yyyy -->
             <div class="text-gray-400 dark:text-gray-500">
@@ -23,10 +22,6 @@ const props = defineProps({
     type: Number,
     default: 0
   },
-  tagsOn: {
-    type: Boolean,
-    default: false
-  }
 })
 
 const { data } = await useAsyncData(
@@ -45,7 +40,6 @@ const { data } = await useAsyncData(
   }
 )
 
-const selectedTags = useState('selectedTags')
 
 const posts = computed(() => {
   if (!data.value) {
@@ -63,16 +57,6 @@ const posts = computed(() => {
   return result
 })
 
-
-function postHasTag(postTags) {
-  if (!selectedTags.value) return;
-  for (let tag of postTags) {
-    if (selectedTags.value.includes(tag)) {
-      return true;
-    }
-  }
-  return false;
-}
 </script>
 
 <style scoped>
