@@ -4,11 +4,11 @@ description: 'Log of Coding Every Day Challenge Day 13'
 head:
   meta:
     - name: 'keywords'
-      content: 'challenge,daily-coding,MQTT,Docker'
+      content: 'challenge,daily-coding,leetcode,java,MQTT,Docker'
     - name: 'author'
       content: 'Caio Prado'
 publishedAt: 2025-01-21 17:15:00
-tags: 'challenge,daily-coding,MQTT,Docker'
+tags: 'challenge,daily-coding,leetcode,java,MQTT,Docker'
 collections: 'Coding Every Day Until I Get a Job'
 toc: true
 ---
