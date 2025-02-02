@@ -1,6 +1,6 @@
 ---
-title: Coding Every Day Until I Get a Job - Day 5
-description: 'Log of Coding Every Day Challenge Day 5'
+title: Code Log - Day 5
+description: 'Code Log Day 5'
 head:
   meta:
     - name: 'keywords'
@@ -9,7 +9,7 @@ head:
       content: 'Caio Prado'
 publishedAt: 2025-01-11 17:15:00
 tags: 'challenge,daily-coding,nuxt.js'
-collections: 'Coding Every Day Until I Get a Job'
+collections: 'Code Log'
 toc: true
 ---
 

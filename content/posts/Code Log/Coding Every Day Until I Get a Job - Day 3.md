@@ -1,6 +1,6 @@
 ---
-title: Coding Every Day Until I Get a Job - Day 3
-description: 'Log of Coding Every Day Challenge Day 3'
+title: Code Log - Day 3
+description: 'Code Log Day 3'
 head:
   meta:
     - name: 'keywords'
@@ -9,7 +9,7 @@ head:
       content: 'Caio Prado'
 publishedAt: 2025-01-09 17:15:00
 tags: 'challenge,daily-coding,leetcode,nuxt.js'
-collections: 'Coding Every Day Until I Get a Job'
+collections: 'Code Log'
 toc: true
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Coding Every Day Until I Get a Job - Day 11
-description: 'Log of Coding Every Day Challenge Day 11'
+title: Code Log - Day 11
+description: 'Code Log Day 11'
 head:
   meta:
     - name: 'keywords'
@@ -9,7 +9,7 @@ head:
       content: 'Caio Prado'
 publishedAt: 2025-01-17 17:15:00
 tags: 'challenge,daily-coding'
-collections: 'Coding Every Day Until I Get a Job'
+collections: 'Code Log'
 toc: true
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Coding Every Day Until I Get a Job - Day 0
-description: 'Planning the Coding Every Day Challenge'
+title: Code Log - Day 0
+description: 'Planning the Code Log'
 head:
   meta:
     - name: 'author'
@@ -9,7 +9,7 @@ head:
       content: 'challenge'
 publishedAt: 2025-01-06 08:00:00
 tags: 'challenge,daily-coding'
-collections: 'Coding Every Day Until I Get a Job'
+collections: 'Code Log'
 toc: true
 ---
 
@@ -17,7 +17,7 @@ toc: true
 
 ## The Challenge
 
-The challenge consists in daily coding practice, where i'm going to dedicate part of my day do produce programming related stuff, like solving some code online judges exercises or working on a side project. Of course, everything while searching for job.
+It consists in daily coding practice, where i'm going to dedicate part of my day do produce programming related stuff, like solving some code online judges exercises or working on a side project.
 
 ## In Practice
 

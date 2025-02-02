@@ -1,6 +1,6 @@
 ---
-title: Coding Every Day Until I Get a Job - Day 2
-description: 'Log of Coding Every Day Challenge Day 2'
+title: Code Log - Day 2
+description: 'Code Log Day 2'
 head:
   meta:
     - name: 'keywords'
@@ -9,7 +9,7 @@ head:
       content: 'Caio Prado'
 publishedAt: 2025-01-08 17:15:00
 tags: 'challenge,daily-coding,leetcode'
-collections: 'Coding Every Day Until I Get a Job'
+collections: 'Code Log'
 toc: true
 ---
 
